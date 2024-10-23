@@ -43,13 +43,22 @@ $camelCase = []; // array - bos massiv
 $camelCase = new stdClass(); // object - bos obyekt
 $camelCase->foo = "bar"; // object - foo bul property
 
-var_dump($camelCase); 
+var_dump($camelCase);
 
 echo "<br>";
 echo "<br>";
 
 // int values ranges
-$minusMax = -2147483648;
-$plyusMax = 2147483647;
+$intMax = PHP_INT_MAX;
+$intMin = PHP_INT_MIN;
 
-echo $minusMax . " - " . $plyusMax;
+// float values ranges
+$floatMax = PHP_FLOAT_MAX;
+$floatMin = PHP_FLOAT_MIN;
+
+echo $intMax . " | " . $intMin;
+
+echo "<br>";
+echo "<br>";
+
+echo $floatMax . " | " . $floatMin;
