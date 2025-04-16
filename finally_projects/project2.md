@@ -58,7 +58,7 @@
 ## ⚙️ Технические требования
 
 ### Docker-окружение
-- `app`: PHP 8.2 + Laravel
+- `app`: PHP 8.3 + Laravel
 - `nginx`: для проксирования
 - `db`: PostgreSQL 14
 - `redis`: для кэширования и очередей
